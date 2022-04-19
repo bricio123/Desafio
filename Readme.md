@@ -1,0 +1,1 @@
+Olá tudo bem? bom para começar falar sobre como eu gosto de organizar meus projeto, tenho que falar que umas das organizações que eu mais gosto é de como o react organiza, com o template dele, sendo assim adotei a forma como eles oraganizam. 
