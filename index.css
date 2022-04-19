@@ -1,0 +1,40 @@
+:root {
+    --white: #fff;
+    --text-color-green: #a9e974;
+    --text-color-green-dark: #4a9111;
+    --color-buttom-black: #000;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+
+   
+  }
+  body,
+  input,
+  textarea,
+  button {
+    font-family: "Nunito", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong {
+    font-weight: 900;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  [disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }

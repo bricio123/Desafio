@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca Ônibus</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="handleClick.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="logo_img"
+        src="./assets/logo-with-text.svg"
+        alt="busca onibus"
+      />
+      <ul class="itens_select">
+        <li>Destino</li>
+        <li>Viações</li>
+        <li>Rodoviárias</li>
+       
+      </ul>
+      <img  class="navbar_toggle" src="./assets/navbar.svg" alt="navbar busca onibus">
+    </nav>
+    <section class="background_img">
+      <div class="shadow">
+        <div class="container">
+          <h1>Pesquise e encontre o melhor preço</h1>
+          <form class="container">
+            <div class="form_background_color">
+              <div class="input_contant">
+                <img src="./assets/iconSend.svg" />
+                <input
+                  type="text"
+                  placeholder="Origem ..."
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="input_contant">
+                <img src="./assets/iconLocalization.svg" />
+                <input type="text" placeholder="Destino ..." required />
+              </div>
+              <div class="input_contant B">
+                <img src="./assets/iconCalender.svg" />
+                <input type="date" placeholder="Seleciona a data" required />
+              </div>
+              <div class="btn_search_ticket">
+                <img src="./assets/iconGo.svg" alt="buscar passagens" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="itens_show_ticket">
+      <nav class="tickets_itens">
+        <ul class="tickets container">
+          <li class="city_1">
+            <img src="./assets/thumb-rio-de-janeiro.jpg" alt="Rio de Janeiro" />
+            <h4>Ônibus indo para Rio de Janeiro</h4>
+            <span class="sub"> </span>
+            <a>São Paulo > Rio de Janeiro</a>
+            <a>Belo Horizonte > Rio de Janeiro</a>
+            <a>Campinas > Rio de Janeiro</a>
+          </li>
+          <li class="city_2">
+            <img src="./assets/thumb-belo-horizonte.jpg" alt="Rio de Janeiro" />
+           
+              <h4>Ônibus indo para São Paulo</h4>
+              <span class="sub"></span>
+              <a>Rio de Janeiro > São Paulo</a>
+              <a>Belo Horizonte > São Paulo</a>
+              <a>Campinas > São Paulo</a>
+           
+          </li>
+          <li class="city_3">
+            <img src="./assets/thumb-curitiba.jpg" alt="Rio de Janeiro" />
+            <h4>Ônibus indo para Curitiba</h4>
+            <span class="sub"></span>
+            <a>Belo Horizonte > Curitiba</a>
+            <a>São Paulo > Curitiba</a>
+            <a>Campinas > Curitiba</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <article class="container_text">
+      <p>
+        Adipiscing eros rutrum nesciunt mauris sapien, vel vestibulum eros
+        tincidunt scelerisque, dictumst ac amet quis expedita, quis a nullam,
+        dui aliquam tincidunt quis. Dolor augue in, accumsan pharetra ut nam
+        amet. Adipiscing et tellus at felis, lorem viverra eu sed suspendisse
+        natoque, sit sodales lectus, nulla erat vehicula in leo sagittis nunc,
+        augue sapien leo. Suscipit a, nullam sed dicta, ut dictumst, sed nec
+        amet sed nunc a, nunc nulla proin praesent imperdiet. Litora fermentum
+        luctus mus cubilia montes risus, tincidunt dui, mauris lacus est quam
+        ligula, ultrices sed. Arcu consequat metus, rutrum scelerisque vulputate
+        in vitae, eleifend erat lacus, maecenas velit sed. Consectetuer diam
+        nunc et libero lacus, ac nonummy nec ad orci est, vehicula lorem et,
+        interdum illo hendrerit cum lectus scelerisque semper, velit pede
+        vestibulum. Elit libero lobortis sed eros, dictum dolor justo vehicula
+        nulla sit nam. Magna erat arcu integer mauris mus vel, cras ridiculus
+        ligula.
+      </p>
+    </article>
+    <footer>  
+      <section class="">
+        <ul>
+        <li><a>Destinos</a></li>
+        <li><a>Viações</a></li>
+        <li><a>Rodoviárias</a></li>
+      </ul>
+      </section>
+      <section>
+        <ul>
+        <li><a>Sobre Nós</a></li>
+        <li><a>FAQ</a></li>
+        <li><a>Trabalhe Conosco</a></li>
+      </ul>
+      </section>
+
+      <section>
+        <ul>
+        <li>
+          <img src="./assets/tw.svg"/>
+          <img src="./assets/pi.svg"/>
+          <img src="./assets/in.svg"/>
+          <img src="./assets/yo.svg"/>
+        </li>
+        <li><a>Contacte-nos em info@buscaonibus.com.br</a></li>
+        <li><a>© 2018 - BUSCAONIBUS | TODOS OS DIREITOS RESERVADOS</a></li>
+      </ul>
+      </section>
+    </footer>
+  </body>
+</html>

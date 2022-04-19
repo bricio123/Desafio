@@ -1,0 +1,332 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+}
+.logo_img {
+  height: 50px;
+  margin-left: 50px;
+}
+.itens_select {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.navbar_toggle {
+  display: none;
+}
+.itens_select li {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 0 55px 0 55px;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.itens_select li:hover {
+  color: var(--text-color-green);
+}
+
+.background_img {
+  width: 100%;
+  height: 500px;
+  margin-top: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/florianopolis.jpg);
+}
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.shadow h1 {
+  text-align: center;
+  color: var(--white);
+  font-size: 3rem;
+  padding: 5rem 0;
+}
+.form_background_color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0 50px;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+.input_contant {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid #000;
+  align-items: center;
+}
+.input_contant img {
+  margin-left: 10px;
+  width: 30px;
+}
+.input_contant input {
+  padding: 1rem;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+.B {
+  border-right: none;
+}
+/*----------------------------------------------------------------*/
+.btn_search_ticket {
+  margin-left: 50px;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -50px;
+  justify-content: center;
+}
+.tickets li {
+  margin: 10px;
+}
+/*----------------------------------------------------------------*/
+.city_1 {
+  width: 300px;
+  height: 350px;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.city_1 img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+}
+.city_1 h4 {
+  color: var(--text-color-green-dark);
+  padding: 8px;
+  font-size: 17px;
+  padding: 10px;
+  font-weight: 600;
+}
+.sub {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+  height: 0.2rem;
+  background-color: var(--text-color-green-dark);
+}
+.city_1 a {
+  margin-top: 5px;
+  color: var(--text-color-green-dark);
+  padding: 8px;
+}
+/*------------------------------*/
+.city_2 {
+  width: 300px;
+  height: 350px;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.city_2 img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+}
+.city_2 h4 {
+  color: var(--text-color-green-dark);
+  padding: 8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.city_2 a {
+  margin-top: 5px;
+  color: var(--text-color-green-dark);
+  padding: 8px;
+}
+/*------------------------------*/
+.city_3 {
+  width: 300px;
+  height: 350px;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.city_3 img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 10px 0.4px rgb(102, 101, 101);
+}
+.city_3 h4 {
+  color: var(--text-color-green-dark);
+  padding: 8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.city_3 a {
+  margin-top: 5px;
+  color: var(--text-color-green-dark);
+  padding: 8px;
+}
+.container_text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 1rem;
+  background-color: #f4f5ed;
+}
+.container_text p {
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer section {
+  padding: 40px;
+}
+footer section ul {
+  list-style: none;
+}
+ul li {
+  color: #0000006e;
+  margin: 15px;
+}
+@media (max-width: 1216px) {
+
+}
+@media (max-width: 900px) {
+  .itens_select {
+    display: none;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    top: 0;
+    bottom: 0;
+  }
+  .itens_select li {
+    color: var(--white);
+    font-weight: 900;
+  }
+  .navbar_toggle {
+    display: flex;
+    margin: 40px;
+  }
+  .form_background_color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 50px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 5px;
+  }
+  .container h1 {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  .input_contant {
+    border: none;
+  }
+  .tickets {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+
+  .city_1 {
+    width: 500px;
+    
+  }
+  .city_2 {
+    width: 500px;
+    
+  }
+  .city_3 {
+    width: 500px;
+    
+  }
+  .container_text p{
+      font-size:1rem;
+  }
+ 
+}
+@media (max-width: 680px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer section {
+        padding: 10px;
+        justify-content:center;
+      }
+      .container_text p{
+          font-size: .8rem;
+          padding: 10px;
+      }
+}
+@media (max-width: 500px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer section {
+        padding: 10px;
+        justify-content:center;
+      }
+      .form_background_color{
+          width:400px;
+      }
+      .city_1 {
+        width: 300px;
+        
+      }
+      .city_2 {
+        width: 300px;
+        
+      }
+      .city_3 {
+        width: 300px;
+        
+      }
+}
